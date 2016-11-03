@@ -1,15 +1,13 @@
 body {
     font-family: 'Roboto', sans-serif;
     padding-left: 0px;
+    background-image: url("background");
 }
 
 a {
     text-decoration: none;
+    
 }
 
-ul {
-    list-style: none;
-    text-align: center;
-}
 
 
