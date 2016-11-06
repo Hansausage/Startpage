@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background-image: url("background");
+    background-image: url("background.png");
     color: white;
     margin: 0px;
 }
@@ -14,13 +14,22 @@ ul {
     list-style: none;
 }
 
-div {
-    width: 70%;
-    height: 70%;
-    background-color: black;
-    border-style: none;
+
+.master {
+    width: 50%;
+    height: 50%;
+    margin-left: 25%;
     margin-top: 10%;
-    margin-left: 15%;
+}
+
+
+.background {
+    background-color: black;
+    opacity: 0.8;
+}
+
+.content {
+    
 }
 
 
