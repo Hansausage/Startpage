@@ -1,8 +1,9 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background-image: url("background.png");
+    background-image: url("background5");
     color: white;
     margin: 0px;
+    background-size: cover;
 }
 
 a {
@@ -20,12 +21,20 @@ ul {
     height: 50%;
     margin-left: 25%;
     margin-top: 10%;
+    position: relative;
+    
 }
 
 
 .background {
     background-color: black;
     opacity: 0.8;
+    -webkit-filter: blur(4px);
+    -moz-filter: blur(4px);
+    -ms-filter: blur(4px);
+    -o-filter: blur(4px);
+    filter: blur(4px);
+    
 }
 
 .content {
