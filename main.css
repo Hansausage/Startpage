@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background-image: url("background5");
+    background-image: url("background4");
     color: white;
     margin: 0px;
     background-size: cover;
@@ -9,6 +9,7 @@ body {
 a {
     text-decoration: none;
     color: white;
+    text-shadow: 2px 2px ##1a1a1a;
 }
 
 ul {
@@ -18,27 +19,36 @@ ul {
 
 .master {
     width: 50%;
-    height: 50%;
+    height:;
     margin-left: 25%;
     margin-top: 10%;
     position: relative;
-    
 }
 
 
 .background {
     background-color: black;
-    opacity: 0.8;
-    -webkit-filter: blur(4px);
-    -moz-filter: blur(4px);
-    -ms-filter: blur(4px);
-    -o-filter: blur(4px);
-    filter: blur(4px);
-    
+    opacity: 0.8;    
 }
 
 .content {
     
+}
+
+.top {
+    height: 32px;
+    background-color: black;
+    opacity: 0.8;
+    padding-top: 8px;
+    padding-left: 16px;
+}
+
+h3 {
+    padding-left: 8px;
+}
+
+h2 {
+    padding-left: 8px;
 }
 
 
